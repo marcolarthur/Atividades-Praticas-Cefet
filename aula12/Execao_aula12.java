@@ -9,7 +9,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Ingrid Lysei
+ * @author Arthur
  */
 public class Execao_aula12 {
 
