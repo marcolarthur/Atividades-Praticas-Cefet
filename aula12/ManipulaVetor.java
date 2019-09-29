@@ -12,7 +12,7 @@ import java.util.Random;
 
 /**
  *
- * @author Ingrid Lysei
+ * @author Arthur
  */
 public class ManipulaVetor {
     private int[] vetor = new int[20];
