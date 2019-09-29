@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1511474771 source:c:\users\savio\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"biblioteca.h"
+
+1511474956 c:\users\savio\desktop\calculadora\biblioteca.h
+
+1511475025 source:c:\users\savio\desktop\calculadora\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"biblioteca.h"
+
