@@ -58,7 +58,6 @@ void imprimePilha(PILHA *pilha){
 void copia(PILHA *p1, PILHA *p2){
     PILHA pAux;
     ITEM x;
-
     inicializa(&pAux);
     while (!vazia(p1)){
         desempilha(p1, &x);
@@ -104,7 +103,7 @@ main() {
                     printf("Pilha vazia.\n");
                 }
                 else
-                    printf("Pilha n„o vazia.");
+                    printf("Pilha n√£o vazia.");
                 break;
             case 4:
                 if(vazia(&pilha)){
@@ -134,7 +133,7 @@ main() {
                 }
             case 0: break;
             default:
-                printf("OpÁ„o inv·lida.\n");
+                printf("Op√ß√£o inv√°lida.\n");
                 break;
         }
     }
