@@ -21,5 +21,4 @@ void opera(char c, PILHA *pilha);
 void esvazia(PILHA *pilha);
 void desempilha (PILHA *pilha, ITEM *x);
 void adiciona (char op, PILHA *pilha);
-
 #endif // BIBLIOTECA_H_INCLUDED
