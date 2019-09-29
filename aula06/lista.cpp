@@ -24,12 +24,12 @@ lista *RemoverFim(lista *LISTA);
 lista *retirar(lista *LISTA);
 
 
-int main(void)
-{
+int main(void){
+	
     setlocale(LC_ALL, "Portuguese");
 	lista *LISTA = (lista *) malloc(sizeof(lista));
 	if(!LISTA){
-		printf("Memória indisponível\n");
+		printf("MemÃ³ria indisponÃ­vel\n");
 		system("pause > nul");
 		system("cls");
 		exit(1);
@@ -62,12 +62,12 @@ int menu(void)
 	printf("2- Mostrar lista\n");
 	printf("3- Adicionar lista no inicio\n");
 	printf("4- Adicionar node no final\n");
-	printf("5- Escolher posição para inserir\n");
-	printf("6- Remover elemento do início\n");
+	printf("5- Escolher posiÃ§Ã£o para inserir\n");
+	printf("6- Remover elemento do inÃ­cio\n");
 	printf("7- Remover elemento do fim\n");
-	printf("8- Escolher posição para remover elemento\n");
+	printf("8- Escolher posiÃ§Ã£o para remover elemento\n");
 	printf("0- Sair\n");
-	printf("Digite a opção: "); scanf("%d", &opt);
+	printf("Digite a opÃ§Ã£o: "); scanf("%d", &opt);
 	system("cls");
 
 	return opt;
@@ -124,7 +124,7 @@ void opcao(lista *LISTA, int op)
 			break;
 
 		default:
-			printf("Por favor, digite um comando válido\n\n");
+			printf("Por favor, digite um comando vÃ¡lido\n\n");
 			system("pause > nul");
             system("cls");
 	}
@@ -142,7 +142,7 @@ lista *aloca()
 {
 	lista *novo=(lista *) malloc(sizeof(lista));
 	if(!novo){
-		printf("Memória indisponível\n");
+		printf("MemÃ³ria indisponÃ­vel\n");
 		system("pause > nul");
 		system("cls");
 		exit(1);
@@ -233,7 +233,7 @@ void inserir(lista *LISTA)
 {
 	int pos,
 		count;
-	printf("Digite a posição, [1 -- %d] desejada para inserir o elemento: ", tam);
+	printf("Digite a posiÃ§Ã£o, [1 -- %d] desejada para inserir o elemento: ", tam);
 	scanf("%d", &pos);
 	system("cls");
 
@@ -255,7 +255,7 @@ void inserir(lista *LISTA)
 		}
 
 	}else
-		printf("Elemento não encontrado\n\n");
+		printf("Elemento nÃ£o encontrado\n\n");
 		system("pause > nul");
 		system("cls");
 }
@@ -302,7 +302,7 @@ lista *retirar(lista *LISTA)
 {
 	int opt,
 		count;
-	printf("Digite a posição, [1 -- %d] desejada para retirar o elemento: ", tam);
+	printf("Digite a posiÃ§Ã£o, [1 -- %d] desejada para retirar o elemento: ", tam);
 	scanf("%d", &opt);
 		system("cls");
 
@@ -324,7 +324,7 @@ lista *retirar(lista *LISTA)
 		}
 
 	}else{
-		printf("Elemento não encontrado\n\n");
+		printf("Elemento nÃ£o encontrado\n\n");
 		system("pause > nul");
 		system("cls");
 		return NULL;
