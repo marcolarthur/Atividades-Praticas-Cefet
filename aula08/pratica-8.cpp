@@ -21,6 +21,7 @@ void CriaPilha( struct PILHA *p, int c )
 }
 int PilhaDescarregada ( struct PILHA *p )
 {
+    
 
     if( p-> topo == -1 )
 
@@ -88,7 +89,7 @@ int main()
         printf(" 2- Desempilhar\n");
         printf(" 3- Mostrar o topo \n");
         printf(" 4- sair\n");
-        printf("\nDigite a opção desejada: ");
+        printf("\nDigite a opÃ§Ã£o desejada: ");
         scanf("%d", &op);
 
         switch (op)
@@ -157,7 +158,7 @@ int main()
 
         default:
             system("cls");
-            printf( "\nOpção inválida, por favor digite uma opção válida \n" );
+            printf( "\nOpÃ§Ã£o invÃ¡lida, por favor digite uma opÃ§Ã£o vÃ¡lida \n" );
             system("pause > nul");
             system("cls");
         }
